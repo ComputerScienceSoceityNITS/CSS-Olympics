@@ -39,11 +39,9 @@ export function LoginView() {
       <Card className="w-full max-w-sm border-[#1e293b] bg-[#0f172a]/90 backdrop-blur-xl shadow-2xl relative z-10">
         <CardHeader className="text-center pb-4 pt-8">
           {/* Logo */}
-          <div className="mx-auto mb-4 w-20 h-20 rounded-2xl bg-gradient-to-br from-[#0f172a] to-[#020617] border-2 border-cyan-500/40 flex items-center justify-center shadow-[0_0_35px_rgba(6,182,212,0.25)]">
-            <span className="text-2xl font-black text-cyan-400 font-mono tracking-tighter">
-              CSS
-            </span>
-          </div>
+          {/* <div className="w-60 h-60"> */}
+            <img src="/images/CSS.png"/>
+          {/* </div> */}
 
           <CardTitle className="text-2xl font-black tracking-tight text-white">
             CSS <span className="text-cyan-400">OLYMPICS</span>
